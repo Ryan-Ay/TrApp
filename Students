@@ -1,0 +1,29 @@
+class Student:
+    def _init_(self, name, gender, grade, id, condition, password):
+        self.name = name
+        self.gender = gender
+        self.grade = grade
+        self.id = id
+        self.condition = condition
+        self.password = password
+
+    def check_password(self, password_attempt):
+        return self.password == password_attempt
+
+    def get_student(self):
+        return self.student
+
+    def get_name(self):
+        return self.name
+
+    def get_gender(self):
+        return self.gender
+
+    def get_grade(self):
+        return self.grade
+
+    def get_id(self):
+        return self.id
+
+    def get_condition(self):
+        return self.condition
